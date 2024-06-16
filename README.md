@@ -1,6 +1,7 @@
 # Modern Bank App
 
-Welcome to the Modern Bank App project! This repository is dedicated to building a modern, responsive, and user-friendly banking application. Through this project, I have:
+Welcome to the Modern Bank App project! 
+This repository is dedicated to building a modern, responsive, and user-friendly banking application. Through this project, I have:
 - Learnt modern UI/UX design principles.
 - Mastered Tailwind CSS for efficient styling.
 - Understood React.js in depth.
