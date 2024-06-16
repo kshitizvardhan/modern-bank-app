@@ -6,6 +6,7 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  // initially setting it to false, when user clicks- the state updates
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
@@ -25,13 +26,19 @@ const Navbar = () => {
         ))}
       </ul>
 
+      {/* So below is the list of navlinks for only mobile devices
+      We can setUp now a state variable which will keep track whether the user has clicked on the menu icon or not... and if that is true/false it will open or close accordingly */}
+      
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
-          onClick={() => setToggle(!toggle)}
-        />
+          onClick={() => setToggle(!toggle)}/>
+        
+        {/* Never do the state variable as setToggle(!toggle), instead pass a function which update the toggle value as here click is passed 
+        
+        So, icon img toggle part is done, now will create the menu which will open when toggle is true with flex as style else if toggle false, then it will be hidden*/}
 
         <div
           className={`${
