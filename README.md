@@ -1,18 +1,15 @@
 # Modern Bank App
 
-Welcome to the Modern Bank App project! This repository is dedicated to building a modern, responsive, and user-friendly banking application. The goal of this project is to learn and master modern UI/UX design principles, Tailwind CSS, React.js, and various components and utilities.
-
-https://github.com/kshitizvardhan/modern-bank-app/assets/143323194/c8819f30-4ddf-4076-a602-0d1df8f912f6
-
-## Check this live [here](https://modern-bank-app-kohl-mu.vercel.app/)
-
-## Introduction
-
-The Modern Bank App is a project focused on creating a sophisticated and intuitive banking application interface. Through this project, I have:
-- Learned modern UI/UX design principles.
+Welcome to the Modern Bank App project! This repository is dedicated to building a modern, responsive, and user-friendly banking application. Through this project, I have:
+- Learnt modern UI/UX design principles.
 - Mastered Tailwind CSS for efficient styling.
 - Understood React.js in depth.
 - Built reusable components and utilities.
+
+https://github.com/kshitizvardhan/modern-bank-app/assets/143323194/c8819f30-4ddf-4076-a602-0d1df8f912f6
+
+## Check this live [https://modern-bank-app-kohl-mu.vercel.app/](https://modern-bank-app-kohl-mu.vercel.app/)
+
 
 ## Key Concepts Learned
 
